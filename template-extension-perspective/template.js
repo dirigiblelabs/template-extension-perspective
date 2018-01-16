@@ -21,7 +21,7 @@ exports.getTemplate = function() {
 		}, {
 			"location": "/template-extension-perspective/extensions/perspective-perspective.extension.template", 
 			"action": "generate",
-			"rename": "perspective-{{fileName}}.extension"
+			"rename": "/extensions/perspective-{{fileName}}.extension"
 		}, {
 			"location": "/template-extension-perspective/perspective.html.template", 
 			"action": "generate",
